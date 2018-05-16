@@ -1,0 +1,39 @@
+#navbar{
+    display: flex;
+    flex-direction :    row-reverse;
+    font-size: 10px;
+}
+div#navbar img {
+    width: 31px;
+    height: 31px;
+    margin: 10px;
+}
+#logo img{
+    margin: 0 auto;
+}
+body{
+    font-family: Aquatico;
+}
+
+@font-face {
+font-family: Aquatico;
+src: url(./Aquatico-Regular.otf);
+} 
+#timer h1{
+    font-size: 10em;
+}
+#button{
+    display: flex;
+    justify-content : center;
+}
+#button div button{
+    background: #ffffff;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 14px 22px;
+    margin: 0px 18px;
+    width: 170px;
+}
+#player img{
+    margin: 0 10px;
+}
